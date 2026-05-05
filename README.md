@@ -21,7 +21,7 @@
 
 ```bash
 # 下载脚本
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/llm-wiki/main/llm-wiki-init/llm-wiki-init.sh
+curl -O https://raw.githubusercontent.com/kangarooh/llm-wiki/main/llm-wiki-init/llm-wiki-init.sh
 
 # 运行
 bash llm-wiki-init.sh
@@ -51,11 +51,6 @@ bash llm-wiki-init.sh
 │   ├── entities/          # 实体页
 │   ├── sources/           # 来源摘要
 │   └── syntheses/         # 综合分析
-└── .claude/skills/        # Claude Code 技能
-    ├── wiki-ingest.md     # 收录技能
-    ├── wiki-query.md      # 查询技能
-    ├── wiki-lint.md       # 健康检查
-    └── obsidian-cli.md    # Obsidian 命令参考
 ```
 
 ## 使用方式
@@ -110,7 +105,7 @@ npx skills add kangarooh/llm-wiki -g
 ### 健康检查
 
 ```
-/wiki-ingest lint
+/wiki-lint
 ```
 
 检测死链、孤岛页面、未同步索引、知识冲突。
@@ -124,9 +119,12 @@ llm-wiki/
 ├── karpathy-wiki.md                   # Karpathy 原始理念文档
 ├── .skills/                           # npx skills 包
 │   ├── llm-wiki/                      # 知识库 schema
+│   ├── wiki-create/                   # 创建知识库
 │   ├── wiki-ingest/                   # 收录技能
 │   ├── wiki-query/                    # 查询技能
-│   └── wiki-manage/                   # 注册表管理
+│   ├── wiki-lint/                     # 健康检查
+│   ├── wiki-manage/                   # 注册表管理
+│   └── obsidian-cli/                  # Obsidian CLI 参考
 ├── llm-wiki-init/
 │   └── llm-wiki-init.sh              # 核心工具：一键初始化脚本
 ├── examples/
