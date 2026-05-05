@@ -125,12 +125,8 @@ llm-wiki/
 │   ├── wiki-lint/                     # 健康检查
 │   ├── wiki-manage/                   # 注册表管理
 │   └── obsidian-cli/                  # Obsidian CLI 参考
-├── llm-wiki-init/
-│   └── llm-wiki-init.sh              # 核心工具：一键初始化脚本
-├── examples/
-│   └── java-tech-wiki/               # 示例：Java 技术知识库
-└── docs/
-    └── superpowers/specs/             # 设计文档
+└── llm-wiki-init/
+    └── llm-wiki-init.sh              # 核心工具：一键初始化脚本
 ```
 
 ## 前置条件
