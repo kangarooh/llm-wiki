@@ -22,6 +22,7 @@ Wiki 页面（实体、概念、来源、综合）
 | `wiki-lint` | `/wiki-lint` | 知识库健康检查 |
 | `wiki-manage` | `/wiki-manage` | 管理知识库注册表 |
 | `llm-wiki` | （参考） | Schema、页面格式、命名规范 |
+| `obsidian-cli` | （工具） | Obsidian CLI 命令参考，供其他技能调用 |
 
 ## 注册表
 

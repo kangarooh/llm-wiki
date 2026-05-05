@@ -99,9 +99,9 @@ updated: YYYY-MM-DD
 - 概念 → `wiki/concepts/`（文件名 kebab-case，如 `ioc-container.md`）
 
 **处理逻辑：**
-1. 检查存在性：搜索 wiki/ 目录判断该实体/概念页面是否已存在。
-2. 页面不存在：按照 `llm-wiki` skill 的模板创建新页面。
-3. 页面已存在：读取现有内容，增量合并新信息。
+1. 检查存在性：使用 `obsidian search query="[页面名]"` 搜索 wiki/ 目录判断该实体/概念页面是否已存在。如果 obsidian-cli 不可用，回退为文件系统搜索。
+2. 页面不存在：使用 `obsidian create name="[页面名]" content="[内容]" silent` 或 Write 工具创建新页面。
+3. 页面已存在：使用 `obsidian read file="[页面名]"` 或 Read 工具读取现有内容，增量合并新信息。
 4. 发现冲突 → 立即暂停，向用户报告冲突内容，询问处理方式后再继续。
 
 ### 步骤 6：更新全局注册表
