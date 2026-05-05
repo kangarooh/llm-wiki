@@ -34,7 +34,7 @@ Wiki 页面（实体、概念、来源、综合）
 bash llm-wiki-init.sh
 
 # 为所有 AI 工具安装技能
-npx skills add your-username/llm-wiki -g
+npx skills add kangarooh/llm-wiki -g
 
 # 在任意 AI 工具中使用
 /wiki-ingest <内容或路径>

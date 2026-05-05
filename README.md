@@ -65,7 +65,7 @@ bash llm-wiki-init.sh
 通过 `npx skills` 将技能安装到所有 AI 工具（Claude Code、Codex CLI、Gemini CLI、Cursor 等）：
 
 ```bash
-npx skills add YOUR_USERNAME/llm-wiki -g
+npx skills add kangarooh/llm-wiki -g
 ```
 
 安装后在任意 AI 工具中可使用：
