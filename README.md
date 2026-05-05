@@ -134,7 +134,7 @@ llm-wiki/
 - 任意 AI CLI 工具：[Claude Code](https://docs.anthropic.com/en/docs/claude-code)、[Codex CLI](https://github.com/openai/codex)、[Gemini CLI](https://github.com/google-gemini/gemini-cli)、[Cursor](https://cursor.sh/) 等
 - [npx](https://docs.npmjs.com/cli/v10/commands/npx)（用于安装技能）
 - （可选）[Obsidian](https://obsidian.md/) — 用于浏览 wiki
-- （可选）[obsidian-cli](https://github.com/yakitrak/obsidian-cli) — 用于高效检索
+- （可选）[obsidian-cli](https://obsidian.md/zh/cli) — 用于高效检索
 
 ## 参考资料
 

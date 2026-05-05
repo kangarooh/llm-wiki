@@ -1,3 +1,4 @@
 docs/
 examples/
 .DS_Store
+*.base
