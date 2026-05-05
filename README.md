@@ -88,7 +88,7 @@ npx skills add kangarooh/llm-wiki -g
 ### 查询知识库
 
 ```
-/wiki-query Spring Boot 自动配置原理是什么
+/wiki-query llm-wiki 的知识编译方法论是什么
 ```
 
 或自然语言：
